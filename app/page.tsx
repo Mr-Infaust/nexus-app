@@ -14,22 +14,10 @@ import {
 export default function IndexPage() {
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-      <div className="flex max-w-[980px] flex-col items-start gap-2">
+      <div className="flex flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
           Nexus App
         </h1>
-        <Card>
-          <CardHeader>
-            <CardTitle>Card Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>Card Content</p>
-          </CardContent>
-          <CardFooter>
-            <p>Card Footer</p>
-          </CardFooter>
-        </Card>
       </div>
       <div className="flex gap-4">
         <Link
@@ -38,7 +26,7 @@ export default function IndexPage() {
           rel="noreferrer"
           className={buttonVariants()}
         >
-          Documentation
+          Website
         </Link>
         <Link
           target="_blank"

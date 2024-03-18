@@ -3,15 +3,15 @@ import {
   Moon,
   SunMedium,
   Twitter,
-  type Icon as LucideIcon,
+  User,
 } from "lucide-react"
 
-export type Icon = LucideIcon
 
 export const Icons = {
   sun: SunMedium,
   moon: Moon,
   twitter: Twitter,
+  user: User,
   logo: (props: LucideProps) => (
     <svg fill="currentColor" {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="m365.5,191.5v-106.7c0-7.2-3.8-13.8-9.9-17.5l-89-53.4c-6.5-3.9-14.5-3.9-21,0l-89.1,53.4c-6.2,3.7-9.9,10.3-9.9,17.5v106.7c0,7.2 3.8,13.8 9.9,17.5l89.1,53.4c9.4,5.4 17.2,2.5 21,0l89-53.4c6.1-3.7 9.9-10.3 9.9-17.5z"/>

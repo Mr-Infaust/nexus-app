@@ -6,16 +6,18 @@ export const siteConfig = {
     "Nexus App Description.",
   mainNav: [
     {
-      title: "Home",
-      href: "/",
-    },
-    {
       title: "Login",
       href: "/login",
+      user: false,
+    },
+    {
+      title: "Dashboard",
+      href: "/dashboard",
+      user: true,
     },
   ],
   links: {
-    twitter: "https://twitter.com",
+    user: "/login",
     github: "https://github.com",
     website: "https://www.nexusproject.app",
   },
