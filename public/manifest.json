@@ -1,0 +1,38 @@
+ {
+    "name": "Nexus App",
+    "short_name": "Nexus App",
+    "description": "Nexus App",
+    "theme_color": "#22c55e",
+    "background_color": "#1c1917",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "icons/icon_72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon_96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon_128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/maskable_128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "splash_pages": null
+}
