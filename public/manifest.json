@@ -3,11 +3,11 @@
     "short_name": "Nexus",
     "description": "Nexus App PWA",
     "theme_color": "#0a9396",
-    "background_color": "#0a9396",
-    "display": "standalone",
+    "background_color": "#0C0A09",
+    "display": "fullscreen",
     "orientation": "portrait",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "/?fullscreen=true",
     "icons": [
         {
             "src": "icons/icon-48x48.png",

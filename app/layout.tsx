@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { Header } from "@/components/header"
+import { MobileFooter } from "@/components/mobilefooter"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
@@ -23,8 +24,6 @@ export const metadata: Metadata = {
       url: "https://www.nexusproject.app",
     },
   ],
-  viewport:
-    "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
     icons: [
       { rel: "apple-touch-icon", url: "icons/icon-128x128.png" },
       { rel: "icon", url: "icons/icon-128x128.png" },
@@ -33,8 +32,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
+    { media: "(prefers-color-scheme: light)", color: "#0a9396" },
+    { media: "(prefers-color-scheme: dark)", color: "#0C0A09" },
   ],
 }
 
@@ -56,11 +55,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <div className="relative flex min-h-screen flex-col">
               <Header />
-              <main className="flex h-screen overflow-hidden">
-                <div className="w-full pt-16">
+              <main className="flex h-screen">
+                <div className="w-full pt-16 pb-16">
                   {children}
                 </div>
               </main>
+              <MobileFooter />
             </div>
           </ThemeProvider>
         </body>

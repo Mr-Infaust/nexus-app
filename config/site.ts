@@ -16,6 +16,18 @@ export const siteConfig = {
       user: true,
     },
   ],
+  mobileFooterNav: [
+    {
+      title: "Login",
+      href: "/login",
+      user: false,
+    },
+    {
+      title: "Home",
+      href: "/",
+      user: false,
+    },
+  ],
   links: {
     user: "/login",
     github: "https://github.com",
