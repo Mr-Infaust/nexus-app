@@ -3,7 +3,7 @@ import { siteConfig } from "@/config/site"
 
 export function MobileFooter() {
     return (
-        <div className="fixed bottom-0 left-0 z-50 w-full h-16 bg-white border-t dark:bg-background md:hidden">
+        <div className="fixed bottom-0 left-0 z-50 w-full h-16 bg-card border-t md:hidden">
             <div className="grid h-full max-w-lg grid-cols-3 mx-auto">
                 <Link href="/" title={siteConfig.name}
                         className="inline-flex flex-col items-center justify-center px-5 border-x transition-colors hover:bg-accent hover:text-foreground group">
