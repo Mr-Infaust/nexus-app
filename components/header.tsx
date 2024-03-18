@@ -30,8 +30,6 @@ export function Header() {
             </Link>
             <Link
               href={siteConfig.links.user}
-              target="_blank"
-              rel="noreferrer"
             >
               <div
                 className={buttonVariants({
