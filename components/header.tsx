@@ -8,7 +8,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Header() {
   return (
-    <header className="bg-background fixed top-0 z-40 w-full border-b">
+    <header className="bg-card fixed top-0 z-40 w-full border-b">
       <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
         <Navigation items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-4">
