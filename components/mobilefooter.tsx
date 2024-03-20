@@ -6,7 +6,7 @@ export function MobileFooter() {
         <div className="fixed bottom-0 left-0 z-50 w-full h-16 bg-card border-t md:hidden">
             <div className="grid h-full max-w-lg grid-cols-3 mx-auto">
                 <Link href="/" title={siteConfig.name}
-                        className="inline-flex flex-col items-center justify-center px-5 border-x transition-colors hover:bg-accent hover:text-foreground group">
+                        className="inline-flex flex-col items-center justify-center px-5 border-x hover:bg-accent hover:text-foreground group">
                         <svg
                         className="w-5 h-5 mb-2 text-muted-foreground group-hover:text-foreground"
                         aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -18,7 +18,7 @@ export function MobileFooter() {
                 </Link>
 
                 <button type="button"
-                        className="inline-flex flex-col items-center justify-center px-5 border-x transition-colors hover:bg-accent hover:text-foreground group">
+                        className="inline-flex flex-col items-center justify-center px-5 border-x hover:bg-accent hover:text-foreground group">
                         <svg
                         className="w-5 h-5 mb-2 text-muted-foreground group-hover:text-foreground"
                         aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
@@ -30,7 +30,7 @@ export function MobileFooter() {
                 </button>
 
                 <Link href="/login" title={siteConfig.name}
-                        className="inline-flex flex-col items-center justify-center px-5 border-x transition-colors hover:bg-accent hover:text-foreground group">
+                        className="inline-flex flex-col items-center justify-center px-5 border-x hover:bg-accent hover:text-foreground group">
                         <svg
                         className="w-5 h-5 mb-2 text-muted-foreground group-hover:text-foreground"
                         aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">

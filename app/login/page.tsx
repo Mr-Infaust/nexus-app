@@ -1,21 +1,9 @@
 import { Metadata } from "next";
-import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card } from "@/components/ui/card"
-import {
-  Form,
-  FormControl,
-  FormDescription,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
+
 import { Input } from "@/components/ui/input";
-import { cn } from "@/lib/utils";
-import UserAuthForm from "@/components/forms/user-auth-form";
 import { login, signup } from "../login/actions";
 
 export const metadata: Metadata = {
@@ -25,8 +13,8 @@ export const metadata: Metadata = {
 
 export default function AuthenticationPage() {
   return (
-    <div className="relative h-screen flex-col items-center justify-center">
-      <div className="h-full flex items-center container">
+    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+      <div className="flex flex-col items-start gap-2">
         <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
           <Card>
             <form>
@@ -51,6 +39,7 @@ export default function AuthenticationPage() {
           </Card>
         </div>
       </div>
-    </div>
+    </section>
+    
   );
 }
