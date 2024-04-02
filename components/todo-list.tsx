@@ -28,7 +28,7 @@ export default async function TodoList() {
           key={todo.id}
           className="rounded-lg border bg-card text-card-foreground shadow-sm p-6 space-y-4"
         >
-          <p className="text-white mb-2">{todo.task}</p>
+          <p className="mb-2">{todo.task}</p>
           <Badge>{data.user?.email}</Badge>
         </div>
       ))}
