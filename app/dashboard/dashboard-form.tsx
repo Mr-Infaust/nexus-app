@@ -79,7 +79,7 @@ export default function DashboardForm({ user }: { user: User | null }) {
   }
 
   return (
-    <div className="form-widget flex flex-row gap-8 w-full">
+    <div className="form-widget flex flex-col md:flex-row gap-8 w-full">
       <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-6 space-y-4 basis-2/3">
         <div className="space-y-2">
           <Label htmlFor="email">Email</Label>

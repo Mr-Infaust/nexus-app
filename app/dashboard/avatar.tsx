@@ -84,6 +84,7 @@ export default function Avatar({
           style={{
             visibility: 'hidden',
             position: 'absolute',
+            display: 'none',
           }}
           type="file"
           id="single"

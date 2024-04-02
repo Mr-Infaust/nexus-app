@@ -60,7 +60,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   {children}
                 </div>
               </main>
-              <MobileFooter />
             </div>
           </ThemeProvider>
         </body>

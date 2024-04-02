@@ -15,6 +15,11 @@ export const siteConfig = {
       href: "/dashboard",
       user: true,
     },
+    {
+      title: "Todo",
+      href: "/todo",
+      user: true,
+    },
   ],
   mobileFooterNav: [
     {
